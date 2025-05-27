@@ -13,6 +13,7 @@
         margin-bottom: 10px;
     }
 
+
 /* Here is my navigation styling, including list and link styling */
     nav {
         max-width: 100%;
@@ -39,11 +40,11 @@
 
 /* Here is my div styling */    
     div {
-        background-color: #FFFAFA;
-        padding: 10px;
-        border: 5px solid #000000;
-        margin-top: 10px;
-        font-family: Tahoma, sans-serif;
+    background-color: #FFFAFA;
+    padding: 10px;
+    border: 5px solid #000000;
+    margin-top: 10px;
+    font-family: Tahoma, sans-serif;
     }
 
 /* Centers the h3 inside the div */    
@@ -53,11 +54,11 @@
 
 /* Here is my footer styling */
     footer {
-        background-color: #000000;
-        color: #FFFFFF;
-        padding: 5px;
-        text-align: center;
-        margin-top: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
     }
 
 /* Here is my image styling */    
