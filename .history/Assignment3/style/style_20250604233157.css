@@ -6,6 +6,7 @@
 
 /* Here is my header styling */
     header {
+        border: 5px solid #000000;
         padding: 20px;
         text-align: center;
         background-color: #FFFAFA;
@@ -71,8 +72,8 @@
         justify-content: center;
         max-width: 800px; /* optional: keeps the grid from stretching too far */
         margin: 0 auto;
-        row-gap: 10px; /* vertical spacing */
-        column-gap: 10px; /* horizontal spacing */
+        row-gap: 25px; /* vertical spacing */
+        column-gap: 1px; /* horizontal spacing */
         }
 
     #gallery img {
@@ -91,6 +92,13 @@
         color: #FFFFFF;
         padding: 5px;
         text-align: center;
+        margin-top: 10px;
+    }
+
+/* Here is my image styling */    
+    img {
+        display: block;
+        width: 100%;
         margin-top: 10px;
     }
 

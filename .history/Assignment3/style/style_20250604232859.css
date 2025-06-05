@@ -6,6 +6,7 @@
 
 /* Here is my header styling */
     header {
+        border: 5px solid #000000;
         padding: 20px;
         text-align: center;
         background-color: #FFFAFA;
@@ -44,15 +45,16 @@
 /* Here is my blockquote styling */
     blockquote {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 20px;
         font-weight: bold;
         font-size: 30px;
+        width: 70%;
         }
 
     cite {
         display: block;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
 /* Here is my chapter styling */    
@@ -60,24 +62,25 @@
         max-width: 100%;
         background-color: #FFFAFA;
         padding: 10px;
+        border: 5px solid #000000;
         margin-top: 10px;
         font-family: Tahoma, sans-serif;
     }
 
 /* Here is my flexbox styling */
     #gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 800px; /* optional: keeps the grid from stretching too far */
-        margin: 0 auto;
-        row-gap: 10px; /* vertical spacing */
-        column-gap: 10px; /* horizontal spacing */
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; /* optional: keeps the grid from stretching too far */
+    margin: 0 auto;
+    row-gap: 25px; /* vertical spacing */
+    column-gap: 1px; /* horizontal spacing */
+    }
 
     #gallery img {
-        width: 30%; /* three images per row (3 x 30% + gaps) */
-        height: auto;
+    width: 30%; /* three images per row (3 x 30% + gaps) */
+    height: auto;
     }
 
 /* Centers the h3 inside the div */    
@@ -92,6 +95,13 @@
         padding: 5px;
         text-align: center;
         margin-top: 10px;
+    }
+
+/* Here is my image styling */    
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
 /* Here is my table styling */

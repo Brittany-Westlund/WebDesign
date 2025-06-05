@@ -6,6 +6,7 @@
 
 /* Here is my header styling */
     header {
+        border: 5px solid #000000;
         padding: 20px;
         text-align: center;
         background-color: #FFFAFA;
@@ -36,48 +37,14 @@
         color: #FFFFFF;
     }
 
-/* Here is my hero video styling */
-    video {
-        width: 100%;
-    }
-
-/* Here is my blockquote styling */
-    blockquote {
-        text-align: center;
-        margin-top: 30px;
-        font-weight: bold;
-        font-size: 30px;
-        }
-
-    cite {
-        display: block;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-/* Here is my chapter styling */    
+/* Here is my div styling */    
     .chapter {
         max-width: 100%;
         background-color: #FFFAFA;
         padding: 10px;
+        border: 5px solid #000000;
         margin-top: 10px;
         font-family: Tahoma, sans-serif;
-    }
-
-/* Here is my flexbox styling */
-    #gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 800px; /* optional: keeps the grid from stretching too far */
-        margin: 0 auto;
-        row-gap: 10px; /* vertical spacing */
-        column-gap: 10px; /* horizontal spacing */
-        }
-
-    #gallery img {
-        width: 30%; /* three images per row (3 x 30% + gaps) */
-        height: auto;
     }
 
 /* Centers the h3 inside the div */    
@@ -94,85 +61,95 @@
         margin-top: 10px;
     }
 
-/* Here is my table styling */
-    h2 { 
-        text-align: center;
+/* Here is my image styling */    
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
+/* Here is my table styling */
     table {
-        width: 78%;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        background-color: #fdfdfd;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     }
 
     th, td {
-        padding: 12px;
-        border: 1px solid #ccc;
-        text-align: left;
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
     }
 
     th {
-        background-color: #f5f5f5;
-        font-weight: bold;
-        color: #5a3e36;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #5a3e36;
     }
 
-/* Here is my form styling */
+    /* Form styles */
     form {
-        background-color: #f9f7f1;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid #ccc;
-        width: 75%;
-        margin: 0 auto;
+    background-color: #f9f7f1;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
     }
 
     fieldset {
-        border: none;
-        padding: 0;
+    border: none;
+    padding: 0;
     }
 
     legend {
-        font-size: 1.2rem;
-        font-weight: bold;
-        margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #5a3e36;
     }
 
     label {
-        display: block;
-        margin-top: 15px;
-        font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
     }
 
     input[type="text"],
     input[type="email"],
     select {
-        width: 100%;
-        margin: 0 auto;
-        padding: 8px;
-        margin-top: 5px;
-        font-size: 1rem;
-        border: 1px solid #aaa;
-        border-radius: 5px;
-        box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+    margin-right: 8px;
+    }
+
+    p {
+    margin-top: 20px;
+    font-weight: bold;
     }
 
     button {
-        margin-top: 20px;
-        background-color: #5a3e36;
-        color: white;
-        padding: 10px 20px;
-        font-size: 1rem;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
+    margin-top: 20px;
+    background-color: #5a3e36;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
     }
 
     button:hover {
-        background-color: #7a564f;
+    background-color: #7a564f;
     }
 
 /* Here is my flexbox styling */ 

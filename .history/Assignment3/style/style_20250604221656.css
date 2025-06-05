@@ -1,0 +1,112 @@
+/* Here is my body styling. It applies to all of the content on the page. */ 
+    body {
+        background-color: #B0E0E6;
+        font-family: Georgia, serif;
+    }
+
+/* Here is my header styling */
+    header {
+        border: 5px solid #000000;
+        padding: 20px;
+        text-align: center;
+        background-color: #FFFAFA;
+        margin-bottom: 10px;
+    }
+
+/* Here is my navigation styling, including list and link styling */
+    nav {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #000000;
+    }
+
+    ul {
+
+        padding: 5px;
+        text-align: center;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+
+    a {
+        color: #FFFFFF;
+    }
+
+/* Here is my div styling */    
+    .chapter {
+        background-color: #FFFAFA;
+        padding: 10px;
+        border: 5px solid #000000;
+        margin-top: 10px;
+        font-family: Tahoma, sans-serif;
+    }
+
+/* Centers the h3 inside the div */    
+    div h3 {
+        text-align: center;
+    }
+
+/* Here is my footer styling */
+    footer {
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 5px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+/* Here is my image styling */    
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+/* Here is my flexbox styling */ 
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px; /* spacing between images */
+        max-width: 600px; /* optional: keeps the grid from stretching too far */
+        margin: 0 auto;
+    }
+
+    div img {
+        width: 30%; /* three images per row (3 x 30% + gaps) */
+        height: auto;
+    }
+
+
+
+
+
+
+ /* Mobile Styles for Screens 600px or Smaller */
+@media (max-width: 600px) {
+    
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    li {
+        display: block;  /* Makes the list items stack vertically */
+        margin: 10px 0;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    header, .chapter, footer {
+        padding: 10px;  /* Adds padding to header, .chapter, AND footer content */
+    }
+
+}
+   
