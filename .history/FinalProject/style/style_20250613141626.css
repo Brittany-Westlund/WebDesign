@@ -17,10 +17,12 @@ header {
 
 .item {
   background-color: #fcf9ff;
+  padding: 0;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;
   justify-content: center;
+  
 }
 
 .item img {
@@ -33,9 +35,8 @@ header {
 }
 
 .item p {
-  text-align: center;
-  display: flex;
-  align-items: center;
+    padding: 0;
+    text-align: center;
 }
 
 footer {

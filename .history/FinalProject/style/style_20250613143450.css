@@ -17,6 +17,7 @@ header {
 
 .item {
   background-color: #fcf9ff;
+  
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;

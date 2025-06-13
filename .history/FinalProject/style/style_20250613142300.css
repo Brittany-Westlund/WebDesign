@@ -17,10 +17,10 @@ header {
 
 .item {
   background-color: #fcf9ff;
+  padding: 0;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
 }
 
 .item img {
@@ -29,13 +29,15 @@ header {
   height: auto; /* maintains the image's aspect ratio */
   display: block; /* clears any space after the image */
   border-radius: 8px;
+
   
 }
 
 .item p {
   text-align: center;
   display: flex;
-  align-items: center;
+  
+  justify-content: center;
 }
 
 footer {

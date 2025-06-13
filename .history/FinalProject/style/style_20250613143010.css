@@ -17,6 +17,7 @@ header {
 
 .item {
   background-color: #fcf9ff;
+  padding: 0;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;
@@ -34,7 +35,6 @@ header {
 
 .item p {
   text-align: center;
-  display: flex;
   align-items: center;
 }
 
