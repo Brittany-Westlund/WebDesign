@@ -1,6 +1,6 @@
 body {
   background-color: #e3d6ec;
-  margin: 0;
+  margin: 0px;
 }
 
 header {
@@ -12,28 +12,13 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 10px;
   margin: auto; 
-  padding: 10px;
 }
 
 .item {
   text-align: center;
   background-color: #fcf9ff;
-  padding: 0;
+  padding: 80px 20px;
   border-radius: 8px;
-  
-}
-
-.item img {
-  padding: 0;
-  width: 100%;
-  height: auto; /* maintains the image's aspect ratio */
-  display: block; /* clears any space after the image */
-  border-radius: 8px;
-  
-}
-
-.item p {
-    padding: 150px 20px;
 }
 
 footer {

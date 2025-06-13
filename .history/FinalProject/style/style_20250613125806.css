@@ -20,20 +20,14 @@ header {
   background-color: #fcf9ff;
   padding: 0;
   border-radius: 8px;
-  
 }
 
 .item img {
   padding: 0;
   width: 100%;
-  height: auto; /* maintains the image's aspect ratio */
-  display: block; /* clears any space after the image */
+  height: auto;
+  display: block; 
   border-radius: 8px;
-  
-}
-
-.item p {
-    padding: 150px 20px;
 }
 
 footer {

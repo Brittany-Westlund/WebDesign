@@ -20,7 +20,6 @@ header {
   background-color: #fcf9ff;
   padding: 0;
   border-radius: 8px;
-  
 }
 
 .item img {
@@ -29,11 +28,10 @@ header {
   height: auto; /* maintains the image's aspect ratio */
   display: block; /* clears any space after the image */
   border-radius: 8px;
-  
 }
 
 .item p {
-    padding: 150px 20px;
+    padding: 200px 20px;
 }
 
 footer {
