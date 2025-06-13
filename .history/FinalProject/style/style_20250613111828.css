@@ -1,26 +1,23 @@
 body {
-  background-color: #e3d6ec;
+    background-color: #e3d3ed;
 }
 
 header {
-  text-align: center;
+    text-align: center;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px; 
+  gap: 20px; 
 }
 
 .item {
-  text-align: center;
-  background-color: #fcf9ff;
-  padding: 125px;
-  max-width: 33.33%;
+    text-align: center;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 

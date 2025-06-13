@@ -1,9 +1,9 @@
 body {
-  background-color: #e3d6ec;
+    background-color: #e3d6ec;
 }
 
 header {
-  text-align: center;
+    text-align: center;
 }
 
 .gallery {
@@ -13,14 +13,13 @@ header {
 }
 
 .item {
-  text-align: center;
-  background-color: #fcf9ff;
-  padding: 125px;
-  max-width: 33.33%;
+    text-align: center;
+    background-color: #a79caf;
+    padding: 100px;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 
