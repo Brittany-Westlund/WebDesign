@@ -10,21 +10,10 @@ body {
   font-family: "Delius", sans-serif;
 }
 
-.navbar-brand {
-  position: absolute;
-  top: 8px;
-}
 
-.carousel-item img {
-  max-height: 680px;
-  object-fit: cover;
-  width: 100%;
-}
 
 header {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
 }
 
 .gallery {

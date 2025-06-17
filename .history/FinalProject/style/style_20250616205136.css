@@ -35,6 +35,22 @@ header {
   padding: 10px;
 }
 
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  margin: auto; 
+  padding: 10px;
+}
+
+.contact-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  margin: auto; 
+  padding: 10px;
+}
+
 .item {
   background-color: #fcf9ff;
   border-radius: 8px;

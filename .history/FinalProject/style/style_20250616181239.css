@@ -11,20 +11,16 @@ body {
 }
 
 .navbar-brand {
-  position: absolute;
-  top: 8px;
+  flex: 0 0 auto;
 }
 
-.carousel-item img {
-  max-height: 680px;
-  object-fit: cover;
-  width: 100%;
+.navbar-collapse {
+  justify-content: center !important;
 }
+
 
 header {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
 }
 
 .gallery {
