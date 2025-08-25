@@ -1,0 +1,26 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  padding: 35px;
+  text-align: center;
+  background-color: snow;
+}
+
+h2, h3 {
+  text-align: center;
+} 
+
+div { text-align: center; }
+
+div p {
+  display: inline-block;
+  width: 30%;
+  background: snow;
+  padding: 80px 15px; /* top/bottom 80px, sides 15px */
+  margin: 4px;
+  box-sizing: border-box; /* keeps padding inside the 30% width */
+  max-width: 100%;        /* makes them stack on small screens */
+}
+

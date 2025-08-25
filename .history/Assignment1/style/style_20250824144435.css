@@ -1,0 +1,26 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  padding: 35px;
+  text-align: center;
+  background-color: snow;
+}
+
+h2, h3 {
+  text-align: center;
+} 
+
+div { text-align: center; }
+
+div p {
+  display: inline-block;
+  width: calc(33.333% - 12px); /* 3 equal columns minus gutter */
+  margin: 0 6px;               /* 6px gap left + right */
+  padding: 80px 15px;
+  background: snow;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+

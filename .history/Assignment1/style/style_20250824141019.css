@@ -1,0 +1,25 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  padding: 35px;
+  text-align: center;
+  background-color: snow;
+}
+
+h2, h3 {
+  text-align: center;
+} 
+
+div {
+  text-align: center; /* centers the inline-block children */  
+}
+
+div p {
+  display: inline-block;   /* sit next to each other */
+  width: 30%;
+  background-color: snow;
+  padding: 16px;
+  margin: 4px;  
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  padding: 35px;
+  text-align: center;
+  background-color: snow;
+}
+
+h2, h3 {
+  text-align: center;
+} 
+
+div { text-align: center; }
+
+div p {
+  display: inline-block;
+  width: 30%;             /* three across */
+  background: snow;
+  margin: 4px;
+  padding: 50px, 20px;
+  box-sizing: border-box;
+  line-height: 1.4em;  /* how tall one line is */
+  min-height: 2.8em;   /* space for 2 lines */
+  
+}
+
+
+
