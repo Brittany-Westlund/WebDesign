@@ -1,0 +1,27 @@
+.blog-preview {
+  display: flex; /* activates Flexbox */
+  flex-direction: row; /* aligns items in a row (default, but explicit is good) */
+  align-items: center; /* vertically centers items within the row */
+  gap: 20px; /* adds space between items */
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column; /* stacks each text element vertically */
+  gap: 10px; /* adds consistent space between elements */
+}
+
+
+.date { }
+
+
+
+.post-title { }
+
+
+
+.post-preview { }
+
+
+
+.read-more { }
