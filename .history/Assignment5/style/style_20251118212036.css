@@ -17,6 +17,12 @@ body {
   align-items: start;
 }
 
+/* Grid placement for the three sections */
+.blog-list {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 
 .blog-preview {
   display: flex; /* activates Flexbox */

@@ -17,6 +17,12 @@ body {
   align-items: start;
 }
 
+/* Grid placement for the three sections */
+.blog-list {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 
 .blog-preview {
   display: flex; /* activates Flexbox */
@@ -210,7 +216,7 @@ margin-top: 0px !important;
 }
 
 .item {
-  background-color: #eee8fb;
+  background-color: #fcf9ff;
   border-radius: 8px;
   aspect-ratio: 1 / 1;
   display: flex;

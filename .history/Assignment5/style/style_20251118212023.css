@@ -17,6 +17,12 @@ body {
   align-items: start;
 }
 
+/* Grid placement for the three sections */
+.blog-list {
+  grid-column: 1;
+  grid-row: 1;
+}
+
 
 .blog-preview {
   display: flex; /* activates Flexbox */
@@ -26,6 +32,7 @@ body {
   max-width: 80%; /* controls total width of the content block */
   margin: 80px auto; /* centers on page with top/bottom space */
   padding: 20px 40px; /* adds subtle inner space from edges */
+  background-color: #c7c3d2;
 }
 
 .blog-preview img {

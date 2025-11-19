@@ -23,7 +23,7 @@ body {
   flex-direction: row; /* aligns items in a row (default, but explicit is good) */
   align-items: center; /* vertically centers items within the row */
   gap: 20px; /* adds space between items */
-  max-width: 80%; /* controls total width of the content block */
+  max-width: 100%; /* controls total width of the content block */
   margin: 80px auto; /* centers on page with top/bottom space */
   padding: 20px 40px; /* adds subtle inner space from edges */
 }
