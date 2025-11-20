@@ -145,6 +145,7 @@ body {
 
 .featured-section .blog-preview img {
   width: 80px;
+  
 }
 
 .featured-section .blog-text {
@@ -168,9 +169,6 @@ font-size: 0.5rem;
 .featured-section .read-more {
 margin-top: 0px !important; 
 }
-
-
-
 
 .featured-section .card {
   height: 290px;
