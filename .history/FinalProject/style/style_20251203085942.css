@@ -4,19 +4,10 @@
   font-style: normal;
 }
 
-
-.raleway-regular {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-
 body {
   background-color: #bfb8c1;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Delius", sans-serif;
 }
 
 .navbar-brand {
@@ -374,9 +365,9 @@ a:focus, button:focus, input:focus {
 
 
 .moonbow-banner {
-  height: 500px;
+  height: 350px;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed; /* parallax */
   position: relative;
 }

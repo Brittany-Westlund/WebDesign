@@ -374,7 +374,7 @@ a:focus, button:focus, input:focus {
 
 
 .moonbow-banner {
-  height: 500px;
+  height: 550px;
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed; /* parallax */

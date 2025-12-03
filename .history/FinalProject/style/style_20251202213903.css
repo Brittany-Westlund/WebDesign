@@ -1,22 +1,13 @@
-.playwrite-us-trad-guides-regular {
-  font-family: "Playwrite US Trad Guides", cursive;
+.delius-regular {
+  font-family: "Delius", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-
-.raleway-regular {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-
 body {
   background-color: #bfb8c1;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Delius", sans-serif;
 }
 
 .navbar-brand {
@@ -72,7 +63,6 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  font-size: 10px;
 }
 
 footer {
@@ -80,8 +70,6 @@ footer {
   background-color: #474449;
   height: 50px;
   padding-top: 15px;
-  color: #aeabab;
-  font-size: 12px !important;
 }
 
 
@@ -354,7 +342,7 @@ margin-top: 0px !important;
 
 .footer li {
   margin-bottom: 6px; /* Adds a little space between each list item */
-  font-size: 8px; /* Makes the text slightly smaller for a neat footer look */
+  font-size: 14px; /* Makes the text slightly smaller for a neat footer look */
 }
 
 .social-icons img {
@@ -374,9 +362,9 @@ a:focus, button:focus, input:focus {
 
 
 .moonbow-banner {
-  height: 500px;
+  height: 350px;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed; /* parallax */
   position: relative;
 }
