@@ -293,20 +293,8 @@ margin-top: 0px !important;
 
 
 
-/* Blockquote styling */
 
-blockquote {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  font-style: italic;
-  font-weight: 600;
-  color: #4a4654;
-  padding: 32px 28px;
-  margin: 50px auto;
-  max-width: 800px;
-}
 
-/* Blockquote end */
 
 
 
@@ -336,15 +324,13 @@ blockquote {
   height: auto; /* maintains the image's aspect ratio */
   display: block; /* clears any space after the image */
   border-radius: 8px;
-  object-fit: cover; /* this crops the image to fill the box */
+  
 }
 
 .item p {
   text-align: center;
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
-  
 }
 
 /* End of Gallery section */

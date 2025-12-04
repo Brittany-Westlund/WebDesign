@@ -293,20 +293,18 @@ margin-top: 0px !important;
 
 
 
-/* Blockquote styling */
-
 blockquote {
   font-size: 1.8rem;
   line-height: 1.8;
   font-style: italic;
-  font-weight: 600;
-  color: #4a4654;
-  padding: 32px 28px;
-  margin: 50px auto;
+  color: #4a4654;             /* moonbow twilight text */
+  padding: 28px 28px;
+  margin: 40px auto;
   max-width: 800px;
+  backdrop-filter: blur(4px); /* subtle dreamy effect */
 }
 
-/* Blockquote end */
+
 
 
 

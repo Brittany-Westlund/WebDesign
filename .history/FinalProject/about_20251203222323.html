@@ -42,9 +42,7 @@
       </div>
     </section>
 
-  
 <blockquote>Warm hands, calm heart, and a sky full of moonbows.</blockquote>
-
 
   
  <!-- Here is my gallery section -->
@@ -57,34 +55,13 @@
       <div class="item"><img src="images/MoonbowMagicalAmbiance.png" alt="A closeup of red flowers"></div>
     </div>
 
-  <!-- Here is my sign up section -->
-
-    <h3>Join our list</h3>
-    <button id="openPopup">Sign Up</button>
-
-    <div id="popup">
-      <h4>Sign up to receive reminders and updates!</h4>
-
-      <input type="text" placeholder="First Name">
-      <input type="email" placeholder="Email Address">
-
-      <button id="sendForm">Send</button>
-      <button id="closePopup">Close</button>
-    </div>
-  
-  </main>
+    </main>
     <footer>
       <p>&copy; <span id="year"></span> Brittany Westlund | Teas of the Moonbow</p>
 
       <script>
       document.getElementById("year").textContent = new Date().getFullYear();
       </script>
-
-      <script>
-      openPopup.onclick = () => popup.classList.add('open');
-      closePopup.onclick = () => popup.classList.remove('open');
-      </script>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>

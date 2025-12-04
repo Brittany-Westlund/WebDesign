@@ -293,20 +293,8 @@ margin-top: 0px !important;
 
 
 
-/* Blockquote styling */
 
-blockquote {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  font-style: italic;
-  font-weight: 600;
-  color: #4a4654;
-  padding: 32px 28px;
-  margin: 50px auto;
-  max-width: 800px;
-}
 
-/* Blockquote end */
 
 
 
@@ -316,7 +304,7 @@ blockquote {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
   margin: auto; 
   padding: 10px;
@@ -336,15 +324,13 @@ blockquote {
   height: auto; /* maintains the image's aspect ratio */
   display: block; /* clears any space after the image */
   border-radius: 8px;
-  object-fit: cover; /* this crops the image to fill the box */
+  
 }
 
 .item p {
   text-align: center;
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
-  
 }
 
 /* End of Gallery section */
@@ -402,7 +388,7 @@ a:focus, button:focus, input:focus {
 
 /* Parallax Banner */
 
-.parallax-banner {
+.moonbow-banner {
   height: 500px;
   background-size: cover;
   background-position: bottom;
@@ -410,13 +396,13 @@ a:focus, button:focus, input:focus {
   position: relative;
 }
 
-.parallax-banner-overlay {
+.moonbow-banner-overlay {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.25); /* optional soft darkening */
 }
 
-.parallax-banner-content {
+.moonbow-banner-content {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -429,15 +415,15 @@ a:focus, button:focus, input:focus {
 
 /* Mobile fix: background-attachment: fixed can be janky */
 @media (max-width: 768px) {
-  .parallax-banner {
+  .moonbow-banner {
     background-attachment: scroll;
   }
 
-  .parallax-banner-content h1 {
+  .moonbow-banner-content h1 {
     font-size: 2rem;
   }
 
-  .parallax-banner {
+  .moonbow-banner {
     height: 320px;
   }
 }
