@@ -85,27 +85,25 @@
     </div>
     
 
-    <!-- Here is my sign up section -->
 
-    <h3>Join our list</h3>
-    <button id="openPopup">Sign Up</button>
 
-    <div id="popup">
-      <h4>Sign up to receive reminders and updates!</h4>
+<h3>Join our list</h3>
+<button class="open-popup">Sign Up</button>
 
-      <input type="text" placeholder="First Name">
-      <input type="email" placeholder="Email Address">
+<div class="popup">
+  <h4>Sign up to receive reminders and updates!</h4>
 
-      <button id="sendForm">Send</button>
-      <button id="closePopup">Close</button>
-    </div>
+  <input type="text" placeholder="First Name">
+  <input type="email" placeholder="Email Address">
+
+  <button class="send-btn">Send</button>
+  <button class="close-popup">Close</button>
+</div>
+
 
 
 
     </main>
-   
-   
-   
     <footer>
       <p>&copy; <span id="year"></span>Brittany Westlund | Teas of the Moonbow</p>
 
@@ -113,16 +111,14 @@
       document.getElementById("year").textContent = new Date().getFullYear();
       </script>
     </footer>
-   
-   
-   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      openPopup.onclick = () => popup.classList.add('open');
-      closePopup.onclick = () => popup.classList.remove('open');
+      const popup = document.querySelector('.popup');
+      const openBtn = document.querySelector('.open-popup');
+      const closeBtn = document.querySelector('.close-popup');
+
+      openBtn.onclick = () => popup.classList.add('open');
+      closeBtn.onclick = () => popup.classList.remove('open');
     </script>
-
-
-
   </body>
 </html>

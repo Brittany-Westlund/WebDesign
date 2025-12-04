@@ -23,11 +23,11 @@ body {
   position: absolute;
   top: 8px;
   background-color: #474449;
-  transition: transform 0.5s ease;
 }
 
 .navbar-brand:hover {
   transform: scale(1.15);
+  transition: transform 0.5s ease;
 }
 
 .bg-dark {
@@ -417,52 +417,6 @@ a:focus, button:focus, input:focus {
     height: 320px;
   }
 }
-
-
-
-
-
-
-
-/* Popup is hidden at first */
-#popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.9);
-
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.3s ease;
-
-  z-index: 1000; /* brings the popup to the front */
-}
-
-/* Popup becomes visible */
-#popup.open {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translate(-50%, -50%) scale(1);
-  background-color: #e0e2e5;
-  padding: 10px;
-}
-
-/* Gentle breathing animation on the Sign Up button */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.03); }
-  100% { transform: scale(1); }
-}
-
-#openPopup {
-  animation: pulse 3s ease-in-out infinite;
-}
-
-
-
-
-
-
 
 
 

@@ -434,8 +434,6 @@ a:focus, button:focus, input:focus {
   opacity: 0;
   pointer-events: none;
   transition: 0.3s ease;
-
-  z-index: 1000; /* brings the popup to the front */
 }
 
 /* Popup becomes visible */
@@ -443,8 +441,6 @@ a:focus, button:focus, input:focus {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
-  background-color: #e0e2e5;
-  padding: 10px;
 }
 
 /* Gentle breathing animation on the Sign Up button */
