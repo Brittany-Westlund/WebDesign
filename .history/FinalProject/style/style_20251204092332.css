@@ -291,6 +291,8 @@ margin-top: 0px !important;
 
 
 
+
+
 /* Blockquote styling */
 
 blockquote {
@@ -397,25 +399,13 @@ a:focus, button:focus, input:focus {
 
 
 
+
 /* Parallax Banner */
-
-.parallax-banner-scroll {
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* start position */
-  background-attachment: scroll; /* allow movement */
-  position: relative;
-  will-change: background-position;
-}
-
 
 .parallax-banner {
   height: 500px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed; /* parallax */
   position: relative;
 }
@@ -424,6 +414,12 @@ a:focus, button:focus, input:focus {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.25); /* optional soft darkening */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px; /* or even 600–800px */
+
 }
 
 .parallax-banner-content {

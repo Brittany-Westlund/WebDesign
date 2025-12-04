@@ -408,7 +408,6 @@ a:focus, button:focus, input:focus {
   /* start position */
   background-attachment: scroll; /* allow movement */
   position: relative;
-  will-change: background-position;
 }
 
 

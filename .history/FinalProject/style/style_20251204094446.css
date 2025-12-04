@@ -394,23 +394,19 @@ a:focus, button:focus, input:focus {
 }
 
 
-
-
-
 /* Parallax Banner */
 
 .parallax-banner-scroll {
   height: 500px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
-  /* start position */
-  background-attachment: scroll; /* allow movement */
+  overflow: hidden; /* recommended */
   position: relative;
-  will-change: background-position;
 }
 
+
+
+/* Parallax Banner */
 
 .parallax-banner {
   height: 500px;

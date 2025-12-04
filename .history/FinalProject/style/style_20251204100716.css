@@ -402,7 +402,7 @@ a:focus, button:focus, input:focus {
 .parallax-banner-scroll {
   height: 500px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 
   /* start position */

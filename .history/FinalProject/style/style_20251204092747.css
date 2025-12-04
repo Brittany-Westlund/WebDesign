@@ -98,6 +98,11 @@ footer {
 
 
 
+main, body, html, .page-wrapper {
+  transform: none !important;
+  overflow: visible !important;
+  backdrop-filter: none !important;
+}
 
 
 
@@ -291,6 +296,8 @@ margin-top: 0px !important;
 
 
 
+
+
 /* Blockquote styling */
 
 blockquote {
@@ -397,25 +404,13 @@ a:focus, button:focus, input:focus {
 
 
 
+
 /* Parallax Banner */
-
-.parallax-banner-scroll {
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* start position */
-  background-attachment: scroll; /* allow movement */
-  position: relative;
-  will-change: background-position;
-}
-
 
 .parallax-banner {
   height: 500px;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed; /* parallax */
   position: relative;
 }
