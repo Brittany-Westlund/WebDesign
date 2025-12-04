@@ -13,11 +13,6 @@
 }
 
 
-
-
-
-
-
 body {
   background-color: #bfb8c1;
   margin: 0;
@@ -27,7 +22,7 @@ body {
 .navbar-brand {
   position: absolute;
   top: 8px;
-  background-color: rgba(89, 89, 108);
+  background-color: #474449;
   transition: transform 0.5s ease;
 }
 
@@ -36,7 +31,7 @@ body {
 }
 
 .bg-dark {
-  background-color: rgba(89, 89, 108) !important;
+  background-color: #474449 !important;
 }
 
 
@@ -87,12 +82,11 @@ header {
 
 footer {
   text-align: center;
-  background-color: rgba(89, 89, 108, 0.95);
+  background-color: #474449;
   height: 50px;
   padding-top: 15px;
   color: #aeabab;
   font-size: 12px !important;
-  margin-top: 30px !important;
 }
 
 
@@ -431,7 +425,6 @@ a:focus, button:focus, input:focus {
 
 
 /* Popup is hidden at first */
-
 #popup {
   position: fixed;
   top: 50%;
@@ -447,11 +440,11 @@ a:focus, button:focus, input:focus {
   /* 🌙 Moonbow Cute Popup Styling */
   width: 420px;             /* wider, more roomy */
   max-width: 92%;
-  padding: 58px 62px;        /* extra breathing room */
+  padding: 80px 80px;       /* extra breathing room */
   border-radius: 20px;      /* soft & huggable */
-  background: rgba(89, 89, 108, 0.95);   /* twilight card */
+  background: rgba(36, 36, 48, 0.95);   /* twilight card */
   backdrop-filter: blur(10px);           /* dreamy fog */
-  color: #e5dee7;
+  color: #4e4b4f;
   font-size: 1.05rem;       /* friendlier type scale */
   line-height: 1.5;
   box-shadow:
@@ -470,39 +463,22 @@ a:focus, button:focus, input:focus {
   opacity: 1;
   pointer-events: auto;
   transform: translate(-50%, -50%) scale(1);
+  background-color: #e0e2e5;
+  padding: 10px;
 }
 
-/* Pulse animation on the Sign Up button */
+/* Gentle breathing animation on the Sign Up button */
 @keyframes pulse {
   0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  50% { transform: scale(1.03); }
   100% { transform: scale(1); }
 }
 
 #openPopup {
   animation: pulse 3s ease-in-out infinite;
-  margin-bottom: 40px;
 }
 
-main h3,
-#openPopup {
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  
-}
 
-button {
-  border-radius: 20px;    
-  background: rgba(174, 104, 66, 0.95);  
-  width: 100px;
-  height: 30px;
-  border: none;
-  padding: 10px, 15px;
-  color: #d2cece;
-  display: block;
-  margin: 0 auto;
-}
 
 
 

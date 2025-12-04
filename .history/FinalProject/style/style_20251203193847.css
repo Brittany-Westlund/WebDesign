@@ -92,7 +92,6 @@ footer {
   padding-top: 15px;
   color: #aeabab;
   font-size: 12px !important;
-  margin-top: 30px !important;
 }
 
 
@@ -481,28 +480,16 @@ a:focus, button:focus, input:focus {
 
 #openPopup {
   animation: pulse 3s ease-in-out infinite;
-  margin-bottom: 40px;
 }
 
-main h3,
-#openPopup {
-  display: block;
-  margin: 20px auto;
+#openPopup h4 {
   text-align: center;
-  
 }
 
-button {
-  border-radius: 20px;    
-  background: rgba(174, 104, 66, 0.95);  
-  width: 100px;
-  height: 30px;
-  border: none;
-  padding: 10px, 15px;
-  color: #d2cece;
-  display: block;
-  margin: 0 auto;
+#openPopup button {
+  text-align: center;
 }
+
 
 
 

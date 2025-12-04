@@ -92,7 +92,6 @@ footer {
   padding-top: 15px;
   color: #aeabab;
   font-size: 12px !important;
-  margin-top: 30px !important;
 }
 
 
@@ -487,22 +486,10 @@ a:focus, button:focus, input:focus {
 main h3,
 #openPopup {
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: center;
-  
 }
 
-button {
-  border-radius: 20px;    
-  background: rgba(174, 104, 66, 0.95);  
-  width: 100px;
-  height: 30px;
-  border: none;
-  padding: 10px, 15px;
-  color: #d2cece;
-  display: block;
-  margin: 0 auto;
-}
 
 
 

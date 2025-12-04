@@ -92,7 +92,6 @@ footer {
   padding-top: 15px;
   color: #aeabab;
   font-size: 12px !important;
-  margin-top: 30px !important;
 }
 
 
@@ -489,19 +488,13 @@ main h3,
   display: block;
   margin: 20px auto;
   text-align: center;
-  
 }
 
 button {
-  border-radius: 20px;    
-  background: rgba(174, 104, 66, 0.95);  
-  width: 100px;
-  height: 30px;
+  border-radius: 20px;      /* soft & huggable */
+  background: rgba(89, 89, 108, 0.95);   /* twilight card */
   border: none;
-  padding: 10px, 15px;
-  color: #d2cece;
-  display: block;
-  margin: 0 auto;
+  padding: 5px, 10px;
 }
 
 
