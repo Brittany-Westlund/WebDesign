@@ -1,5 +1,3 @@
-let y = 0;
-
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d"); // our drawing “brush”
 
@@ -17,7 +15,6 @@ function draw() {
     ctx.fill();
 
     y += 1; // tiny downward movement
-    if (y > canvas.height) y = 0;
 }
 
 function loop() {

@@ -17,7 +17,9 @@ function draw() {
     ctx.fill();
 
     y += 1; // tiny downward movement
+
     if (y > canvas.height) y = 0;
+
 }
 
 function loop() {
