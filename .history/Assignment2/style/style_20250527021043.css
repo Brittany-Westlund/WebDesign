@@ -14,11 +14,6 @@
     }
 
 /* Here is my navigation styling, including list and link styling */
-    .chapter {
-        /* chapter styles here */
-    }
-
-/* Here is my navigation styling, including list and link styling */
     nav {
         max-width: 100%;
         margin: 0 auto;
@@ -71,4 +66,3 @@
         max-width: 100%;
         margin: 0 auto;
     }
-
