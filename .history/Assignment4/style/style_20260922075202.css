@@ -269,10 +269,11 @@
         font-weight: bold;
     }
 
-    .form-v2 input[type="text"],
-    .form-v2 input[type="email"],
-    .form-v2 select {
+    input[type="text"],
+    input[type="email"],
+    select {
         width: 100%;
+        margin: 0 auto;
         padding: 8px;
         margin-top: 5px;
         font-size: 1rem;
