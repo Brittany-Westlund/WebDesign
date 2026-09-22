@@ -1,0 +1,362 @@
+.component-library {
+    text-align: center;
+    color: rgba(243, 246, 255, 0.89);
+    text-shadow: 1px 1px 10px #000000;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+/* ----- Body styling. It applies to all of the content on the page. ----- */ 
+    body {
+        background-color: #1A2028;
+        font-family: Georgia, serif;
+    }
+
+
+/* ----- Heading Styles ----- */
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+/* ----- Navigation styling, including list and link styling ----- */
+    nav {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #628578;
+    }
+
+    nav ul {
+
+        padding: 5px;
+        text-align: center;
+    }
+
+    nav li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+
+    nav a {
+        color: #FFFFFF;
+    }
+
+
+/* ----- Hero styling ----- */
+    .hero {
+        position: relative;
+    }
+
+    .hero header {
+        position: absolute;
+        top: 175px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: rgba(243, 246, 255, 0.89);
+        text-shadow: 1px 1px 10px #000000;
+    }
+    
+    .hero img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 100%;
+        height: 555px;
+        object-fit: cover;
+    }
+
+    .hero blockquote {
+        text-align: center;
+        max-width: 100%;
+        margin: 0;
+        font-weight: bold;
+        font-size: 22px;
+        background-color: #628578;
+        color: #f3f6ff;
+        padding-top: 3%;
+    }
+
+    .hero cite {
+        display: block;
+        text-align: center;
+        color: #e0e4a0;
+        background-color: #628578;
+        padding-top: 1%;
+        padding-bottom: 3%;
+    }
+
+
+
+/* ----- Full-width image styling ----- */
+
+.full-width-image {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+
+
+
+/* ----- Poem card group styling ----- */
+
+    /* Three-card Block Container */
+    .poem-card-group {
+        text-align: center; /* The text-align property centers the inline content inside a container. Because poem-card is set to display: inline-block, the browser can align the cards similarly to text. */
+        margin: 3%;
+    }
+
+    /* Card Component */
+    .poem-card {
+        display: inline-block; /* Since this class is on a div element, we change the display from a div's default block-level behavior to inline-block. This allows the cards to sit next to each other and be aligned like inline content. */
+        max-width: 25%;
+        height: auto;
+        background-color: #c9d4d1;
+        padding: 10px;
+        padding-bottom: 35px;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-family: Tahoma, sans-serif;
+    }
+
+    /* Citation styling inside of poem-card class */
+    .poem-card cite {
+        display: block;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 4%;
+    }
+
+    /* Image styling inside of poem-card class */
+    .poem-card img {
+        display: block;
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 7%;
+    }
+    
+    /* h3 styling inside of poem-card class */
+    .poem-card h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* Paragraph styling inside of poem-card class */
+    .poem-card p {
+        width: fit-content;
+        margin: 0 auto;
+        padding-left: 5%;
+        text-align: left;
+    }
+
+    /* Note: any elements outside of the poem-card class must be styled separately or assigned the poem-card class for styles to take effect. */
+
+
+/* ----- Footer styling ----- */
+    footer {
+        background-color: #4f6058;
+        color: #FFFFFF;
+        padding: 5px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: small;
+    }
+
+    
+/* ----- Table styling ----- */
+    .favorites-table h2 { 
+        text-align: center;
+        background-color: #c9d4d1;
+
+    }
+
+    table {
+        width: 78%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-color: #fdfdfd;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    th, td {
+        padding: 12px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f5f5f5;
+        font-weight: bold;
+        color: #5a3e36;
+    }
+
+    
+/* ----- Form styling ----- */
+    form {
+        background-color: #f9f7f1;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    legend {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 100%;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: #5a3e36;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #7a564f;
+    }
+
+/* ----- Form V2 ----- */
+
+    .form-v2 {
+        background-color: #f9f7f1;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .form-v2 fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    .form-v2 legend {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .form-v2 label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .form-v2 input[type="text"],
+    .form-v2 input[type="email"],
+    .form-v2 select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-v2 button {
+        margin-top: 20px;
+        background-color: #5a3e36;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .form-v2 button:hover {
+        background-color: #7a564f;
+    }
+
+
+
+
+    /* ----- Gallery styling ----- */
+
+    .gallery {
+    text-align: center;
+    }
+
+    .gallery img {
+        display: inline-block;
+        width: 28%;
+        margin: 1%;
+        vertical-align: top;
+    }
+
+
+/* ----- Mobile Styles for Screens 600px or Smaller ----- */
+    @media (max-width: 600px) {
+
+        body {
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        nav li {
+            display: block;
+            margin: 10px 0;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        header, footer {
+            padding: 10px;
+        }
+
+        .gallery img {
+            width: 45%;
+        }
+
+        .poem-card {
+            width: 85%;
+            max-width: 85%;
+        }
+    }
+   
