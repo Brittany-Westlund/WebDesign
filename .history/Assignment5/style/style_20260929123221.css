@@ -8,7 +8,7 @@
 
 /* ----- Body styling. It applies to all of the content on the page. ----- */ 
     body {
-        background-color: #f6f8fc;
+        background-color: #1A2028;
         font-family: Georgia, serif;
     }
 
@@ -349,36 +349,6 @@
     float: left;
     margin-right: 8px;
     margin-top: 3px;
-    }
-
-
-        /* ----- Drop cap styling using image ----- */
-
-    .drop-cap-image {
-    color:rgba(78, 95, 79, 0.89);
-    background-color: #f6eee4;
-    padding: 30px 40px;
-    padding-top: 45px;
-    border-radius: 8px;
-    max-width: 40%;
-    margin: 0 auto;
-    line-height: 1.4;
-    position: relative;
-    z-index: 0;
-    }
-
-    .drop-cap-image img {
-    width: 120px;
-    height: auto;
-    float: left;
-    object-fit: contain;
-    padding: 0px;
-    position: relative;
-    z-index: -1;
-    top: -35px;
-    left: -10px;
-    margin-bottom: -30px;
-    margin-right: -35px;
     }
 
 

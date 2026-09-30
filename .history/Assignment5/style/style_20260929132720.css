@@ -355,6 +355,7 @@
         /* ----- Drop cap styling using image ----- */
 
     .drop-cap-image {
+    max-width: 400px;
     color:rgba(78, 95, 79, 0.89);
     background-color: #f6eee4;
     padding: 30px 40px;
