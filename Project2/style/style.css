@@ -6,7 +6,7 @@ html, body {
 }
 
 main {
-    width: 90%;
+    width: 80%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 0;
@@ -62,7 +62,7 @@ main {
         border-radius: 12px;
         }
 
-        /* ---------------- FLEXIBLE BLOG PREVIEW ---------------- */
+        /* ---------------- FLEXIBLE PREVIEW ---------------- */
 
         .layout-preview-flexible {
         display: flex;
@@ -79,7 +79,7 @@ main {
         }
 
                 .layout-preview-flexible img {
-                width: 25%;
+                width: 30%;
                 max-width: 230px;
                 aspect-ratio: 1 / 1;
                 object-fit: cover;
@@ -107,7 +107,7 @@ main {
 
                 .layout-preview-post-title-flexible {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: clamp(.95rem, 3cqi, 2rem);
+                font-size: clamp(.95rem, 3.5cqi, 2.3rem);
                 font-weight: 600;
                 line-height: 1.15;
                 margin: 0;
@@ -116,7 +116,7 @@ main {
 
                 .layout-preview-post-excerpt-flexible {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: clamp(0.77rem, 1.8cqi, 0.9rem);
+                font-size: clamp(0.8rem, 1.8cqi, 1rem);
                 color: #6d6d6d;
                 line-height: 1.35;
                 margin: 0;
@@ -124,8 +124,8 @@ main {
                 overflow: hidden;
                 display: -webkit-box;
                 -webkit-box-orient: vertical;
-                line-clamp: 2;
-                -webkit-line-clamp: 2;
+                line-clamp: 3;
+                -webkit-line-clamp: 3;
                 }
 
                 .layout-preview-read-more-flexible {
@@ -142,6 +142,13 @@ main {
                 }
 
                 /* ---------------- PREVIEW CONTAINER QUERIES ---------------- */
+
+                @container (max-width: 350px) {
+                .layout-preview-post-excerpt-flexible {
+                    line-clamp: 2;
+                    -webkit-line-clamp: 2;
+                }
+                }
 
                 @container (min-width: 600px) {
                 .layout-preview-post-excerpt-flexible {
