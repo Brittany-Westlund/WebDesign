@@ -322,7 +322,7 @@ main {
 
         /* ---------------- RESPONSIVE SHOWCASE ---------------- */
 
-            @media (max-width: 700px) {
+            @media (max-width: 850px) {
             
             .preview-showcase {
                 grid-template-columns: 1fr;
