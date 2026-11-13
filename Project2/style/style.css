@@ -45,7 +45,7 @@ main {
 
 
 
-/* ---------------- PREVIEW SHOWCASE LAYOUT ---------------- */
+/* ---------------- HOMEPAGE PREVIEW SHOWCASE LAYOUT ---------------- */
 
 .preview-showcase {
   display: grid;
@@ -335,7 +335,7 @@ main {
 
 
 
-/* --------------- FLEXIBLE PREVIEW --------------- */
+/* --------------- ABOUT PAGE FLEXIBLE PREVIEW --------------- */
 
 .preview-flexible {
   display: flex;
@@ -401,6 +401,7 @@ main {
     .preview-flexible img {
         width: 100%;
         max-width: 230px;
+        margin: 0 auto;
     }
 }
 
