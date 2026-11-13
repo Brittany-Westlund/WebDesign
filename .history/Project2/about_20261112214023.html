@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A reusable HTML component library.">
+    
+    <title>Homepage - The Nature of Things</title>
+    
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- ------------- FLEXIBLE PREVIEW --------------- --> 
+<br>
+
+<div class="preview-flexible">
+
+    <img src="images/BookHeartString.jpg" alt="A closeup of a string tied around an open book forming the shape of a heart.">
+
+    <div class="preview-text-flexible">
+
+        <h2 class="preview-post-title-flexible">About Our Love of Books</h2>
+
+        <p class="preview-post-excerpt-flexible">
+            Reading opens the door to new ideas, perspectives, and experiences. Whether exploring an unfamiliar world, discovering something new, or returning to a favorite story, books offer opportunities to learn, imagine, and reflect.</p>
+            
+        <p class="preview-post-excerpt-flexible">From quiet mornings with a cup of coffee to afternoons spent browsing bookstore shelves, reading invites us to slow down and enjoy the simple pleasure of a good book.
+            Every book holds something different. Some challenge the way we think, others spark our creativity, and a few become familiar companions we return to again and again.
+        </p>
+
+        <a href="blog-post.html" class="preview-read-more-flexible">READ MORE</a>
+
+    </div>
+
+</div>
+
+<!-- ------------- FORM --------------- -->
+
+<form class="form-v2">
+ <fieldset>
+ <legend>Submit Your Favorite Poem</legend>
+
+ <label>Your Name:</label>
+ <input type="text" name="name" placeholder="e.g. Joey Smith">
+
+ <label>Email Address:</label>
+ <input type="email" name="email" placeholder="e.g. joeysmith@gmail.com">
+
+ <label>Favorite Poem:</label>
+ <input type="text" name="favorite-poem" placeholder="Type your favorite poem here">
+
+ <label>Favorite Type of Poetry:</label> <!-- Dropdown label -->
+ <select name="poetry">
+  <option value="narrative">Narrative</option>
+  <option value="lyric">Lyric</option>
+  <option value="free-verse">Free Verse</option>
+  <option value="haiku">Haiku</option>
+ </select>
+
+ <label>How Do You Like to Experience Poetry?</label> <!-- radio section label -->
+ <label><input type="radio" name="format" value="print"> On a page</label>
+ <label><input type="radio" name="format" value="audio"> Aloud</label>
+ <label><input type="radio" name="format" value="live"> In Person</label>
+
+ <label>
+  <input type="checkbox" name="subscribe" value="yes">
+  Subscribe to our monthly poetry newsletter
+ </label>
+
+ <button type="submit">Submit</button>
+ </fieldset>
+</form>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Brittany Westlund. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
